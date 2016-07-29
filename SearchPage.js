@@ -56,6 +56,10 @@ var styles = StyleSheet.create({
   }
 });
 
+var BannerAdUnitId = "ca-app-pub-3940256099942544/2934735716"; 
+var AdMob = require('NativeModules').AdMobManager;
+AdMob.showBannerOnBottomOfTheView(BannerAdUnitId);  
+
 function urlForQueryAndPage(key, value, pageNumber) {
 	var data = {
 		country: 'uk',
