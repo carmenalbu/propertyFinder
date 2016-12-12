@@ -1,6 +1,7 @@
 //'use strict';//enables strict mode - adds improved error handling and disables other - js better
 
 import React, { Component } from 'react';
+//import React, { Component } from 'react';
 import { AppRegistry, Text, StyleSheet, ListView, NavigatorIOS, Image, TextInput, ActivityIndicator, View, TouchableHighlight } from 'react-native';
 
 var SearchPage = require('./SearchPage');
