@@ -24,4 +24,5 @@ class PropertyFinderApp extends React.Component {
   }
 }
 
+//AppRegistry.registerComponent('PropertyFinder', () => PropertyFinderApp);
 AppRegistry.registerComponent('PropertyFinder', () => PropertyFinderApp);
