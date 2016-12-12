@@ -7,7 +7,7 @@ var SearchPage = require('./SearchPage');
 
 var stylesIndex = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1 
   }
 });
 
